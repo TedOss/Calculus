@@ -1,8 +1,6 @@
 package com.belloot.tech;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
+import static org.junit.Assert.*;
 import Model.Sum;
 import org.junit.Test;
 
@@ -30,7 +28,6 @@ public class AppSumIntegers_Test
     public void SumOf_2_Numbers_ShouldBeAccurate(){
         Integer nb1 = 10, nb2 = 10;
         assertEquals( (long)sum.perform(10, 10), 20);
-
     }
 
     @Test
