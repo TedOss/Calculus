@@ -27,7 +27,11 @@ public class AppMultiplyIntegers_Test {
     @Test
     public void Multiplying_2_NegativeIntegers_ShouldBePositiveResult(){
         Integer nb1 = -5, nb2 = -5 ;
+<<<<<<< HEAD
         assertEquals( (long)multip.perform(nb1, nb2), 25);
+=======
+        assertEquals( (long)multip.perform(nb1, nb2), -25);
+>>>>>>> a4d6ed7895e25f733d82b6f0a6a90e8fd313f418
     }
 
     @Test
