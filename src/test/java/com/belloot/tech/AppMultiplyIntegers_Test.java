@@ -11,7 +11,7 @@ public class AppMultiplyIntegers_Test {
      * Unit test for simple App.
      */
         Multiply multip = new Multiply();
-
+  
         @Test
         public void Multiplying_2_Numbers_ShouldBeAccurate(){
             Integer nb1 = 10, nb2 = 10;
